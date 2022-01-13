@@ -2,11 +2,11 @@
 1-wire multi-shield for Raspberry Pi
 </h1>
 
+> Use up to six 1-wire bus lines to connect multiple sensors on long lines.
+
 <div align="center">
     <img src="img/pi-1w-shield_1.png" width="600">
 </div>
-
-> Use up to six 1-wire bus lines to connect multiple sensors on long lines.
 
 This is a project providing a circuit and PCB design for a Raspberry Pi shield. 
 The board can connect up to six 1-wire busses, enabling to connect up to around 60 sensors, like DS18B20.
