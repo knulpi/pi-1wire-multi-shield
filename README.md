@@ -53,7 +53,7 @@ Be aware that you might reduce more insulation of your cables to reach all termi
 
 The gerber files can be used to direcly order the board, e.g. via [Aisler](https://aisler.net/p/NHLBOVQZ).
 
-The following parts are neededÖ
+The following parts are needed:
 - 6x 2k7 resistors or similar
 - 2x 47µF capacitors or similar
 - Pitch Screw Terminal Blocks with a 5.08mm pin distance to connect 3x6 wires (e.g. 3x6-pin-blocks or 6x3-pin-blocks etc.)
