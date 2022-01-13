@@ -8,6 +8,8 @@
     <img src="img/pi-1w-shield_1.png" width="600">
 </div>
 
+_[🇩🇪 Deutsche version](LIESMICH.md)_
+
 This is a project providing a circuit and PCB design for a Raspberry Pi shield. 
 The board can connect up to six 1-wire busses, enabling to connect up to around 60 sensors, like DS18B20.
 Each data pin of the terminals is wired to one specific GPIO.
