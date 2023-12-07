@@ -11,7 +11,7 @@
 _[🇩🇪 Deutsche version](LIESMICH.md)_
 
 This is a project providing a circuit and PCB design for a Raspberry Pi shield. 
-The board can connect up to six 1-wire busses, enabling to connect up to around 60 sensors, like DS18B20.
+The board can connect up to six 1-wire buses, enabling to connect up to around 60 sensors, such as the DS18B20.
 Each data pin of the terminals is wired to one specific GPIO.
 The board can easily be plugged onto a Raspberry Pi.
 
@@ -19,7 +19,7 @@ The board can easily be plugged onto a Raspberry Pi.
 
 Connecting 1-wire sensors with long lines is error-prone and will not work with many sensors.
 You may get random disappearing sensors or bad value readings.
-Splitting problematic sensor lines into own busses greatly reduces these inabilities.
+Splitting problematic sensor lines into own buses greatly reduces these inabilities.
 
 
 ## Circuit
@@ -53,7 +53,7 @@ Be aware that you might reduce more insulation of your cables to reach all termi
 
 ## Parts
 
-The gerber files can be used to direcly order the board, e.g. via [Aisler](https://aisler.net/p/NHLBOVQZ).
+The gerber files can be used to directly order the board, e.g. via [Aisler](https://aisler.net/p/NHLBOVQZ).
 
 The following parts are needed:
 - 6x 2k7 resistors or similar
