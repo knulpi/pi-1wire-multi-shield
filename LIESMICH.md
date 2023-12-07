@@ -24,7 +24,7 @@ Indem man einzelne Sensoren in eigene Busse packt, kann man die Probleme deutlic
 
 ## Schaltplan
 
-Der Schaltplan ist sehr simpel. Folgendes wird verbundenÖ
+Der Schaltplan ist sehr simpel. Folgendes wird verbunden:
 - die Masseklemmen mit einem Raspberry Massepin
 - die VDD-Klemmen mit dem 5V Netz des Raspberrys
 - jeder Pin der Datenklemmen mit einem spezifischen Pin am Raspberry
@@ -66,7 +66,7 @@ Die folgenden Bauteile werden zusätzlich benötigt:
 > ⚠ Der laufende Kernel auf dem Pi darf nicht zu alt sein, um mehrere GPIOs für 1-wire gleichzeitig zu unterstützen.
 
 Zum Einstellen des Pis wird für jeden verwendeten GPIO eine Zeile im `/boot/config.txt` eingetragen.
-Sollte die Vorgehensweise unklar ist, empfehle ich ein Tutorial zu suchen, wie zum Beispiel [dieses](https://blog.oddbit.com/post/2018-03-27-multiple-1-wire-buses-on-the/).
+Sollte die Vorgehensweise unklar sein, empfehle ich ein Tutorial zu suchen, wie zum Beispiel [dieses](https://blog.oddbit.com/post/2018-03-27-multiple-1-wire-buses-on-the/).
 
 Am Ende sollten in der `/boot/config.txt` folgende Zeilen enthalten sein:
 ```
